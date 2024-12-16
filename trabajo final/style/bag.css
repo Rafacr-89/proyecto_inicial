@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxz;
+}
+#seccion-bag{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-top: 32em;
+    height: 140vh;
+    margin: 0;
+    padding-bottom: 32em
+}
+#seccion-bag img {
+    max-width: 100%;
+}
+.acciones a{
+    color: #ffffff;
+}
+
+.bag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Carrito {
+    margin-bottom: 0.5em;
+  }
+  .pay-mode{
+    width: 20vh;
+  }
+  .metods img{
+    margin-left: 1em;
+    width: 10%;
+  }
+  
+  .productos-bolsa {
+    background-color: white;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .producto-bolsa img{
+        margin-left: 1em;
+        float: left;
+        width: 15%;
+    }
+    .producto-bolsa {
+        margin-bottom: 2em;
+        overflow: hidden;
+  }
+    .productos-bolsa p {
+        margin-left: 20%;
+    }
+  .Precio p{
+    width: 70%;
+    margin-top: 1em;
+  }
+  
+  
+  .acciones {
+    text-align: center;
+  }
+  
+  button img{
+    width: 20%;
+  }
+
+  button {
+    width: 10em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }

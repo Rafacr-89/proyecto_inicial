@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxz;
+}
+#category1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-top: 10em;
+    height: 175vh;
+    margin: 0;
+    padding-bottom: 32em
+}
+#category1 img {
+    max-width: 100%;
+}
+
+.titulo h1 {
+    color: black;
+    text-align: center;
+    padding: 1em;
+    font-size: 35px;
+    margin-bottom: 3%;
+    
+}
+.filtro{
+    padding: 1em;
+    height: 200vh;
+    width: 10%;
+    background-color: #72e972;
+    float: left;
+}
+.Categori-filter h1{
+    background-color: #cccccc91;
+
+}
+.Categori-filter  input{
+    margin-left: 5%;
+}
+.Categori-filter label{
+    font-size: 18px;
+    margin-left: 2%;
+}
+.Valoration-filter label{
+    font-size: 18px;
+    margin-left: 2%;
+}
+.Valoration-filter img {
+    margin-left: 1%;
+    width: 5%;
+}
+.Valoration-filter h1{
+    background-color: #cccccc91;
+}
+.Valoration-filter input{
+    margin-left: 5%;
+}
+.aplicar {
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(8, 190, 69);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.aplicar:hover {
+    background-color: rgb(4, 197, 68);
+}
+.Carne-productos{
+    left: 50%; /* Centra el div horizontalmente */
+    text-align: center;
+}
+
+.Titulo-Cat{
+    font-size: 65px;
+}
+
+.Carne-productos td, h1 {
+    padding-bottom: 1em;
+}
+.Carne-productos img{
+    cursor: pointer;
+    margin-bottom: 5em;
+    box-shadow: 0 1px 8px #000;
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 30em;
+}
+
+.Carne-productos img:hover {
+    animation: option-product 1s ease forwards;
+}
+
+.Carne-productos img {
+    width: 15%;
+}
